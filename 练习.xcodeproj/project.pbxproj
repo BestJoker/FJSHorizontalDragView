@@ -1,0 +1,534 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D20EFE6E1A4589B10020B371 /* RootViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D20EFE6D1A4589B10020B371 /* RootViewController.m */; };
+		D21DE2C11D12342D00E36786 /* 0.png in Resources */ = {isa = PBXBuildFile; fileRef = D21DE2BF1D12342D00E36786 /* 0.png */; };
+		D21DE2C21D12342D00E36786 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D21DE2C01D12342D00E36786 /* 1.png */; };
+		D23D54A81A0CAE1E00E515B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23D54A71A0CAE1E00E515B0 /* Foundation.framework */; };
+		D23D54AA1A0CAE1E00E515B0 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23D54A91A0CAE1E00E515B0 /* CoreGraphics.framework */; };
+		D23D54AC1A0CAE1E00E515B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23D54AB1A0CAE1E00E515B0 /* UIKit.framework */; };
+		D23D54B21A0CAE1E00E515B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D23D54B01A0CAE1E00E515B0 /* InfoPlist.strings */; };
+		D23D54B41A0CAE1E00E515B0 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D23D54B31A0CAE1E00E515B0 /* main.m */; };
+		D23D54B81A0CAE1E00E515B0 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D23D54B71A0CAE1E00E515B0 /* AppDelegate.m */; };
+		D23D54BA1A0CAE1E00E515B0 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D23D54B91A0CAE1E00E515B0 /* Images.xcassets */; };
+		D23D54C11A0CAE1E00E515B0 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23D54C01A0CAE1E00E515B0 /* XCTest.framework */; };
+		D23D54C21A0CAE1E00E515B0 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23D54A71A0CAE1E00E515B0 /* Foundation.framework */; };
+		D23D54C31A0CAE1E00E515B0 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D23D54AB1A0CAE1E00E515B0 /* UIKit.framework */; };
+		D23D54CB1A0CAE1E00E515B0 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = D23D54C91A0CAE1E00E515B0 /* InfoPlist.strings */; };
+		D23D54CD1A0CAE1E00E515B0 /* __Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = D23D54CC1A0CAE1E00E515B0 /* __Tests.m */; };
+		D2983F271B32972100A1488A /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D2983F261B32972100A1488A /* SecondViewController.m */; };
+		D2983F2F1B32CB5D00A1488A /* VerLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D2983F2E1B32CB5D00A1488A /* VerLabel.m */; };
+		D2983F321B32D34400A1488A /* DragPlayVideoView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2983F311B32D34400A1488A /* DragPlayVideoView.m */; };
+		D2BD14A51B31470200DD4FE8 /* MyCollectionViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BD14A41B31470200DD4FE8 /* MyCollectionViewCell.m */; };
+		D2BD14AF1B316EA900DD4FE8 /* BQPlayVideoBaseView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BD14AE1B316EA900DD4FE8 /* BQPlayVideoBaseView.m */; };
+		D2BD14B21B316F5C00DD4FE8 /* BQPlayVideoRightView.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BD14B11B316F5C00DD4FE8 /* BQPlayVideoRightView.m */; };
+		D2BD14B51B31705B00DD4FE8 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BD14B41B31705B00DD4FE8 /* UIView+Extension.m */; };
+		D2BD14B81B31730200DD4FE8 /* UIScrollView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D2BD14B71B31730200DD4FE8 /* UIScrollView+Extension.m */; };
+		D2BD74C41ACE38C20067F29A /* Launch Screen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D2BD74C31ACE38C20067F29A /* Launch Screen.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D23D54C41A0CAE1E00E515B0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D23D549C1A0CAE1E00E515B0 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D23D54A31A0CAE1E00E515B0;
+			remoteInfo = "练习";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D20EFE6C1A4589B10020B371 /* RootViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RootViewController.h; sourceTree = "<group>"; };
+		D20EFE6D1A4589B10020B371 /* RootViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RootViewController.m; sourceTree = "<group>"; };
+		D21DE2BF1D12342D00E36786 /* 0.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 0.png; sourceTree = "<group>"; };
+		D21DE2C01D12342D00E36786 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		D23D54A41A0CAE1E00E515B0 /* 练习.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "练习.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23D54A71A0CAE1E00E515B0 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		D23D54A91A0CAE1E00E515B0 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		D23D54AB1A0CAE1E00E515B0 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		D23D54AF1A0CAE1E00E515B0 /* 练习-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "练习-Info.plist"; sourceTree = "<group>"; };
+		D23D54B11A0CAE1E00E515B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D23D54B31A0CAE1E00E515B0 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D23D54B51A0CAE1E00E515B0 /* 练习-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "练习-Prefix.pch"; sourceTree = "<group>"; };
+		D23D54B61A0CAE1E00E515B0 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D23D54B71A0CAE1E00E515B0 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D23D54B91A0CAE1E00E515B0 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D23D54BF1A0CAE1E00E515B0 /* 练习Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "练习Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D23D54C01A0CAE1E00E515B0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		D23D54C81A0CAE1E00E515B0 /* 练习Tests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "练习Tests-Info.plist"; sourceTree = "<group>"; };
+		D23D54CA1A0CAE1E00E515B0 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		D23D54CC1A0CAE1E00E515B0 /* __Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = __Tests.m; sourceTree = "<group>"; };
+		D2983F251B32972100A1488A /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D2983F261B32972100A1488A /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D2983F2D1B32CB5D00A1488A /* VerLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = VerLabel.h; path = "练习/VerLabel.h"; sourceTree = "<group>"; };
+		D2983F2E1B32CB5D00A1488A /* VerLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = VerLabel.m; path = "练习/VerLabel.m"; sourceTree = "<group>"; };
+		D2983F301B32D34400A1488A /* DragPlayVideoView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DragPlayVideoView.h; path = "练习/DragPlayVideoView.h"; sourceTree = "<group>"; };
+		D2983F311B32D34400A1488A /* DragPlayVideoView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DragPlayVideoView.m; path = "练习/DragPlayVideoView.m"; sourceTree = "<group>"; };
+		D2BD14A31B31470200DD4FE8 /* MyCollectionViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyCollectionViewCell.h; sourceTree = "<group>"; };
+		D2BD14A41B31470200DD4FE8 /* MyCollectionViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyCollectionViewCell.m; sourceTree = "<group>"; };
+		D2BD14AD1B316EA900DD4FE8 /* BQPlayVideoBaseView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = BQPlayVideoBaseView.h; path = "练习/BQPlayVideoBaseView.h"; sourceTree = "<group>"; };
+		D2BD14AE1B316EA900DD4FE8 /* BQPlayVideoBaseView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = BQPlayVideoBaseView.m; path = "练习/BQPlayVideoBaseView.m"; sourceTree = "<group>"; };
+		D2BD14B01B316F5C00DD4FE8 /* BQPlayVideoRightView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BQPlayVideoRightView.h; sourceTree = "<group>"; };
+		D2BD14B11B316F5C00DD4FE8 /* BQPlayVideoRightView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BQPlayVideoRightView.m; sourceTree = "<group>"; };
+		D2BD14B31B31705B00DD4FE8 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIView+Extension.h"; path = "练习/UIView+Extension.h"; sourceTree = "<group>"; };
+		D2BD14B41B31705B00DD4FE8 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extension.m"; path = "练习/UIView+Extension.m"; sourceTree = "<group>"; };
+		D2BD14B61B31730200DD4FE8 /* UIScrollView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "UIScrollView+Extension.h"; path = "练习/UIScrollView+Extension.h"; sourceTree = "<group>"; };
+		D2BD14B71B31730200DD4FE8 /* UIScrollView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "UIScrollView+Extension.m"; path = "练习/UIScrollView+Extension.m"; sourceTree = "<group>"; };
+		D2BD74C31ACE38C20067F29A /* Launch Screen.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "Launch Screen.xib"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D23D54A11A0CAE1E00E515B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23D54AA1A0CAE1E00E515B0 /* CoreGraphics.framework in Frameworks */,
+				D23D54AC1A0CAE1E00E515B0 /* UIKit.framework in Frameworks */,
+				D23D54A81A0CAE1E00E515B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23D54BC1A0CAE1E00E515B0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23D54C11A0CAE1E00E515B0 /* XCTest.framework in Frameworks */,
+				D23D54C31A0CAE1E00E515B0 /* UIKit.framework in Frameworks */,
+				D23D54C21A0CAE1E00E515B0 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D21DE2C31D12344200E36786 /* FJSHorizontalDragView */ = {
+			isa = PBXGroup;
+			children = (
+				D2BD14AD1B316EA900DD4FE8 /* BQPlayVideoBaseView.h */,
+				D2BD14AE1B316EA900DD4FE8 /* BQPlayVideoBaseView.m */,
+				D2BD14B31B31705B00DD4FE8 /* UIView+Extension.h */,
+				D2BD14B41B31705B00DD4FE8 /* UIView+Extension.m */,
+				D2BD14B61B31730200DD4FE8 /* UIScrollView+Extension.h */,
+				D2BD14B71B31730200DD4FE8 /* UIScrollView+Extension.m */,
+				D2983F2D1B32CB5D00A1488A /* VerLabel.h */,
+				D2983F2E1B32CB5D00A1488A /* VerLabel.m */,
+				D2983F301B32D34400A1488A /* DragPlayVideoView.h */,
+				D2983F311B32D34400A1488A /* DragPlayVideoView.m */,
+			);
+			name = FJSHorizontalDragView;
+			sourceTree = "<group>";
+		};
+		D23D549B1A0CAE1E00E515B0 = {
+			isa = PBXGroup;
+			children = (
+				D21DE2C31D12344200E36786 /* FJSHorizontalDragView */,
+				D23D54AD1A0CAE1E00E515B0 /* 练习 */,
+				D23D54C61A0CAE1E00E515B0 /* 练习Tests */,
+				D23D54A61A0CAE1E00E515B0 /* Frameworks */,
+				D23D54A51A0CAE1E00E515B0 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D23D54A51A0CAE1E00E515B0 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D23D54A41A0CAE1E00E515B0 /* 练习.app */,
+				D23D54BF1A0CAE1E00E515B0 /* 练习Tests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D23D54A61A0CAE1E00E515B0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D23D54A71A0CAE1E00E515B0 /* Foundation.framework */,
+				D23D54A91A0CAE1E00E515B0 /* CoreGraphics.framework */,
+				D23D54AB1A0CAE1E00E515B0 /* UIKit.framework */,
+				D23D54C01A0CAE1E00E515B0 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D23D54AD1A0CAE1E00E515B0 /* 练习 */ = {
+			isa = PBXGroup;
+			children = (
+				D23D54B61A0CAE1E00E515B0 /* AppDelegate.h */,
+				D23D54B71A0CAE1E00E515B0 /* AppDelegate.m */,
+				D20EFE6C1A4589B10020B371 /* RootViewController.h */,
+				D20EFE6D1A4589B10020B371 /* RootViewController.m */,
+				D2983F251B32972100A1488A /* SecondViewController.h */,
+				D2983F261B32972100A1488A /* SecondViewController.m */,
+				D2BD14A31B31470200DD4FE8 /* MyCollectionViewCell.h */,
+				D2BD14A41B31470200DD4FE8 /* MyCollectionViewCell.m */,
+				D2BD14B01B316F5C00DD4FE8 /* BQPlayVideoRightView.h */,
+				D2BD14B11B316F5C00DD4FE8 /* BQPlayVideoRightView.m */,
+				D21DE2BF1D12342D00E36786 /* 0.png */,
+				D21DE2C01D12342D00E36786 /* 1.png */,
+				D2BD74C31ACE38C20067F29A /* Launch Screen.xib */,
+				D23D54B91A0CAE1E00E515B0 /* Images.xcassets */,
+				D23D54AE1A0CAE1E00E515B0 /* Supporting Files */,
+			);
+			path = "练习";
+			sourceTree = "<group>";
+		};
+		D23D54AE1A0CAE1E00E515B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23D54AF1A0CAE1E00E515B0 /* 练习-Info.plist */,
+				D23D54B01A0CAE1E00E515B0 /* InfoPlist.strings */,
+				D23D54B31A0CAE1E00E515B0 /* main.m */,
+				D23D54B51A0CAE1E00E515B0 /* 练习-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D23D54C61A0CAE1E00E515B0 /* 练习Tests */ = {
+			isa = PBXGroup;
+			children = (
+				D23D54CC1A0CAE1E00E515B0 /* __Tests.m */,
+				D23D54C71A0CAE1E00E515B0 /* Supporting Files */,
+			);
+			path = "练习Tests";
+			sourceTree = "<group>";
+		};
+		D23D54C71A0CAE1E00E515B0 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D23D54C81A0CAE1E00E515B0 /* 练习Tests-Info.plist */,
+				D23D54C91A0CAE1E00E515B0 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D23D54A31A0CAE1E00E515B0 /* 练习 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23D54D01A0CAE1E00E515B0 /* Build configuration list for PBXNativeTarget "练习" */;
+			buildPhases = (
+				D23D54A01A0CAE1E00E515B0 /* Sources */,
+				D23D54A11A0CAE1E00E515B0 /* Frameworks */,
+				D23D54A21A0CAE1E00E515B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "练习";
+			productName = "练习";
+			productReference = D23D54A41A0CAE1E00E515B0 /* 练习.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D23D54BE1A0CAE1E00E515B0 /* 练习Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D23D54D31A0CAE1E00E515B0 /* Build configuration list for PBXNativeTarget "练习Tests" */;
+			buildPhases = (
+				D23D54BB1A0CAE1E00E515B0 /* Sources */,
+				D23D54BC1A0CAE1E00E515B0 /* Frameworks */,
+				D23D54BD1A0CAE1E00E515B0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D23D54C51A0CAE1E00E515B0 /* PBXTargetDependency */,
+			);
+			name = "练习Tests";
+			productName = "练习Tests";
+			productReference = D23D54BF1A0CAE1E00E515B0 /* 练习Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D23D549C1A0CAE1E00E515B0 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = www.fujinshi.com;
+				TargetAttributes = {
+					D23D54BE1A0CAE1E00E515B0 = {
+						TestTargetID = D23D54A31A0CAE1E00E515B0;
+					};
+				};
+			};
+			buildConfigurationList = D23D549F1A0CAE1E00E515B0 /* Build configuration list for PBXProject "练习" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = D23D549B1A0CAE1E00E515B0;
+			productRefGroup = D23D54A51A0CAE1E00E515B0 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D23D54A31A0CAE1E00E515B0 /* 练习 */,
+				D23D54BE1A0CAE1E00E515B0 /* 练习Tests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D23D54A21A0CAE1E00E515B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23D54B21A0CAE1E00E515B0 /* InfoPlist.strings in Resources */,
+				D21DE2C11D12342D00E36786 /* 0.png in Resources */,
+				D21DE2C21D12342D00E36786 /* 1.png in Resources */,
+				D23D54BA1A0CAE1E00E515B0 /* Images.xcassets in Resources */,
+				D2BD74C41ACE38C20067F29A /* Launch Screen.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23D54BD1A0CAE1E00E515B0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23D54CB1A0CAE1E00E515B0 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D23D54A01A0CAE1E00E515B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2983F271B32972100A1488A /* SecondViewController.m in Sources */,
+				D2BD14B51B31705B00DD4FE8 /* UIView+Extension.m in Sources */,
+				D23D54B81A0CAE1E00E515B0 /* AppDelegate.m in Sources */,
+				D23D54B41A0CAE1E00E515B0 /* main.m in Sources */,
+				D2BD14B81B31730200DD4FE8 /* UIScrollView+Extension.m in Sources */,
+				D2BD14B21B316F5C00DD4FE8 /* BQPlayVideoRightView.m in Sources */,
+				D2983F2F1B32CB5D00A1488A /* VerLabel.m in Sources */,
+				D2BD14AF1B316EA900DD4FE8 /* BQPlayVideoBaseView.m in Sources */,
+				D2BD14A51B31470200DD4FE8 /* MyCollectionViewCell.m in Sources */,
+				D2983F321B32D34400A1488A /* DragPlayVideoView.m in Sources */,
+				D20EFE6E1A4589B10020B371 /* RootViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D23D54BB1A0CAE1E00E515B0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D23D54CD1A0CAE1E00E515B0 /* __Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D23D54C51A0CAE1E00E515B0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D23D54A31A0CAE1E00E515B0 /* 练习 */;
+			targetProxy = D23D54C41A0CAE1E00E515B0 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D23D54B01A0CAE1E00E515B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23D54B11A0CAE1E00E515B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		D23D54C91A0CAE1E00E515B0 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D23D54CA1A0CAE1E00E515B0 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D23D54CE1A0CAE1E00E515B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		D23D54CF1A0CAE1E00E515B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D23D54D11A0CAE1E00E515B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "练习/练习-Prefix.pch";
+				INFOPLIST_FILE = "练习/练习-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		D23D54D21A0CAE1E00E515B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "练习/练习-Prefix.pch";
+				INFOPLIST_FILE = "练习/练习-Info.plist";
+				ONLY_ACTIVE_ARCH = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		D23D54D41A0CAE1E00E515B0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/练习.app/练习";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "练习/练习-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "练习Tests/练习Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		D23D54D51A0CAE1E00E515B0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/练习.app/练习";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "练习/练习-Prefix.pch";
+				INFOPLIST_FILE = "练习Tests/练习Tests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D23D549F1A0CAE1E00E515B0 /* Build configuration list for PBXProject "练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23D54CE1A0CAE1E00E515B0 /* Debug */,
+				D23D54CF1A0CAE1E00E515B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23D54D01A0CAE1E00E515B0 /* Build configuration list for PBXNativeTarget "练习" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23D54D11A0CAE1E00E515B0 /* Debug */,
+				D23D54D21A0CAE1E00E515B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D23D54D31A0CAE1E00E515B0 /* Build configuration list for PBXNativeTarget "练习Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D23D54D41A0CAE1E00E515B0 /* Debug */,
+				D23D54D51A0CAE1E00E515B0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D23D549C1A0CAE1E00E515B0 /* Project object */;
+}
